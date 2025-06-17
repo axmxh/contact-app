@@ -19,3 +19,6 @@
 
 Once the server is running, open your browser and navigate to
 [`http://localhost:3000`](http://localhost:3000) to access the application.
+
+
+This project is licensed under the MIT License. See LICENSE for details.
