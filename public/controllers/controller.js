@@ -1,7 +1,7 @@
 var myApp = angular.module("myApp", []);
 
 myApp.controller("AppCtrl", ['$scope', '$http', function($scope, $http) {
-	console.log("Hello Worle from controller");
+	console.log("Hello World from controller");
 	var refresh = function(){
 		$http.get("contactlist").then(function(response){
 			console.log("I get the data I requested");
